@@ -20,7 +20,7 @@ export const navLinks = [
 export const heroTexts = [
     {
         id: "welcome",
-        title: "Hi, I'm Winfrey",
+        title: "Hi, I'm Winfrey.",
     },
     {
         id: "location",

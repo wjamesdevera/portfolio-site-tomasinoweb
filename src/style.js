@@ -7,12 +7,14 @@ const styles = {
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
 
-  paddingX: "sm:px-[24rem] px-6",
+  paddingX: "md:px-[24rem] sm:px-24 px-6",
   paddingY: "sm:py-[24rem] py-6",
   padding: "sm:px-16 px-6 sm:py-12 py-4",
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
+
+  textGradient: "text-transparent bg-clip-text bg-gradient-to-r from-zinc-500 to-neutral-900",
 };
 
 export const layout = {

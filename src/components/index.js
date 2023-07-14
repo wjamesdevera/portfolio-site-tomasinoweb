@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Footer from "./Footer";
 import FeaturedProject from "./FeaturedProject";
 import Button from "./Button";
+import Particle from "./Particle";
 
 export {
     Navbar,
@@ -10,4 +11,5 @@ export {
     Footer,
     FeaturedProject,
     Button,
+    Particle,
 };

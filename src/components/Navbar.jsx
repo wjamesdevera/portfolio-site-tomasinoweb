@@ -15,9 +15,9 @@ const Navbar = () => {
             </a>
             <div className="flex flex-col items-end">
                 <div className="rounded-full border-secondary w-14 h-14 drop-shadow-lg bg-white hover:translate-y-[-1px] hover:shadow-lg" onClick={() => setToggle((prev) => !prev)}>
-                    <a href="#" id="toggle" className={`${toggle ? 'on' : ''}`}>
+                    <div className={`${toggle ? 'on' : ''}`} id='toggle'>
                         <span className='w-14 h-14'></span>
-                    </a>
+                    </div>
                 </div>
             </div>
             <div className={`bg-white rounded-2xl drop-shadow-lg px-2 py-2 absolute right-32 top-16 transition-transform duration-150 ${toggle ? "pop-up-visible" : "pop-up"} hover:translate-x-px hover:translate-y-[-1px] hover:shadow-lg`}>
