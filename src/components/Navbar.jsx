@@ -22,8 +22,8 @@ const Navbar = () => {
             </div>
             <div className={`bg-white rounded-2xl drop-shadow-lg px-2 py-2 absolute right-32 top-16 transition-transform duration-150 ${toggle ? "pop-up-visible" : "pop-up"} hover:translate-x-px hover:translate-y-[-1px] hover:shadow-lg`}>
                 <ul className='sm:w-[250px] text-lg flex flex-col gap-2 opacity-75 font-medium'>
-                    {navLinks.map((nav, index) => (
-                        <li className='hover:bg-neutral-200 w-full text-lg rounded-lg py-2 px-4' id={`${nav.id}`}>
+                    {navLinks.map(nav => (
+                        <li className='hover:bg-neutral-200 w-full text-lg rounded-lg py-2 px-4' key={nav.id}>
                             <a href="#">{nav.title}</a>
                         </li>
                     ))}
