@@ -5,7 +5,7 @@ import { featured_project } from '../assets'
 const FeaturedProject = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
-      <a href='' className=" bg-slate-200 rounded-xl w-full hover:translate-y-[-2px] hover:shadow-md overflow-hidden hover:text-neutral-600 mb-8">
+      <a href='' className=" bg-slate-200 rounded-xl w-full hover:translate-y-[-2px] hover:shadow-md overflow-hidden hover:text-neutral-600 mb-16">
         <div className="flex flex-col-reverse sm:flex-row text-none hover:text">
           <div className="my-8 mx-4">
             <div className="text-center my-4">

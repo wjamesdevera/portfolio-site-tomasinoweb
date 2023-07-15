@@ -3,7 +3,7 @@ import { facebook, github, linkedin } from '../assets'
 
 const Footer = () => {
   return (
-    <div className='relative bottom-0 flex flex-col gap-4 justify-center items-center bg-neutral-100 px-16 py-10 w-full'>
+    <footer className='bottom-0 flex flex-col gap-4 justify-center items-center bg-neutral-200 py-3 w-full'>
       <div className="
       flex items-center gap-4">
         <a href="https://www.facebook.com/w.jamesdevera" target='_blank'>
@@ -16,10 +16,10 @@ const Footer = () => {
           <img src={linkedin} alt="" className='w-8'/>
         </a>
       </div>
-      <p>
+      <p className='text-xs'>
         Copyright © 2021 Winfrey De Vera. All rights reserved.
       </p>
-    </div>
+    </footer>
   )
 }
 

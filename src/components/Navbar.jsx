@@ -2,7 +2,6 @@ import {useState } from 'react'
 
 import { profile } from '../assets'
 import { navLinks } from '../constants'
-import styles from '../style'
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
