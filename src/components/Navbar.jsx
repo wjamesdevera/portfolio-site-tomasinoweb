@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav
         className='fixed left-0 top-[32px] right-0 bottom-[auto] z-20 max-w-[1200px] sm:px-32 px-12 flex justify-between items-center mx-auto'
         >
-            <a href="">
+            <a href="/">
                 <img src={profile} alt="profile" className='rounded-circle img-fluid w-14 drop-shadow-lg hover:translate-y-[-1px] hover:shadow-lg'/>
             </a>
             <div className="flex flex-col items-end">
@@ -24,7 +24,7 @@ const Navbar = () => {
                 <ul className='sm:w-[250px] text-lg flex flex-col gap-2 opacity-75 font-medium'>
                     {navLinks.map(nav => (
                         <li className='hover:bg-neutral-200 w-full text-lg rounded-lg py-2 px-4' key={nav.id}>
-                            <a href="#">{nav.title}</a>
+                            <a href={`${nav.link}`}>{nav.title}</a>
                         </li>
                     ))}
                 </ul>
