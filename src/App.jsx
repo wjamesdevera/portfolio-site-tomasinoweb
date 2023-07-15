@@ -9,14 +9,10 @@ const App = () => (
         <Navbar/>
         <Hero/>
         <Particle/>
-        <div className="h-[600px] bg-secondary_tw rounded m-2"> </div>
-        <div className="h-[600px] bg-secondary_tw rounded m-2"> </div>
-        <div className="h-[600px] bg-secondary_tw rounded m-2"> </div>
-        <div className="h-[600px] bg-secondary_tw rounded m-2"> </div>
-        <div className="h-[600px] bg-secondary_tw rounded m-2"> </div>
+        <FeaturedProject/>
       </div>
     </div>
-
+    <Footer/>
   </div>
 )
 

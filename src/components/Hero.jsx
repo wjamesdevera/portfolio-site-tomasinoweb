@@ -7,7 +7,7 @@ import styles from '../style'
 const Hero = () => {
   return (
     <div className='text-center vh-75 w-full flex justify-center items-center'>
-      <div className="flex flex-col gap-4 py-[25%] md:px-56 px-12 z-10">
+      <div className="flex flex-col gap-4 pt-[25%] pb-16 px-12 z-10">
         {heroTexts.filter(text => (text.id == "welcome")).map(text => 
           <h1 key={text.id} className={`font-bold sm:text-7xl text-3xl ${styles.textGradient}`}>
             {text.title}
