@@ -3,7 +3,7 @@ import { facebook, github, linkedin } from '../assets'
 
 const Footer = () => {
   return (
-    <footer className='bottom-0 flex flex-col gap-4 justify-center items-center bg-neutral-200 py-3 w-full'>
+    <footer className='flex flex-col gap-4 justify-center items-center bg-neutral-200 py-3 w-full shrink-0'>
       <div className="
       flex items-center gap-4">
         <a href="https://www.facebook.com/w.jamesdevera" target='_blank'>

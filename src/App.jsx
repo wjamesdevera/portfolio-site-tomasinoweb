@@ -4,8 +4,8 @@ import { Navbar, Footer } from './components'
 import { Home, Projects, About } from './pages'
 
 const App = () => (
-  <div className="bg-primary_tw w-full overflow-hidden h-100">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+  <div className="bg-primary_tw w-full overflow-hidden min-h-[100vh] flex flex-col">
+    <div className={`${styles.paddingX} ${styles.flexCenter} grow`}>
       <div className={`${styles.boxWidth} text-neutral-600`}>
         <Navbar/>
         <Routes>
@@ -15,7 +15,7 @@ const App = () => (
         </Routes>
       </div>
     </div>
-    <Footer/>
+    <Footer className="shrink-0"></Footer>
   </div>
 )
 

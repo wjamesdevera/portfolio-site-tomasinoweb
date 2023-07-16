@@ -20,7 +20,7 @@ const About = () => {
           <li>Java</li>
           <li>HTML & CSS</li>
         </ul>
-        <p className='mb-72'>
+        <p className=''>
           Outside of my studies, I have a passion for music and enjoy playing video games in my free time.
         </p>
       </div>
