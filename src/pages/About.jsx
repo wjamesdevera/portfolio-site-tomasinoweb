@@ -4,8 +4,8 @@ import styles from '../style'
 const About = () => {
   return (
     <div className='flex justify-center items-center'>
-      <div className="text-md">
-        <h1 className={`sm:text-5xl text-3xl ${styles.textGradient} font-bold mt-[25%] mb-10`}>About me</h1>
+      <div className="text-md sm:px-0 px-12">
+        <h1 className={`sm:text-5xl text-3xl ${styles.textGradient} font-bold sm:mt-[25%] mt-[35%] mb-10`}>About me</h1>
         <p className='mb-6'>
           I am currently a student at the 
           <a href="https://www.ust.edu.ph/the-university/" target='_blank' className='font-semibold'> University of Santo Tomas</a>
@@ -20,7 +20,7 @@ const About = () => {
           <li>Java</li>
           <li>HTML & CSS</li>
         </ul>
-        <p className=''>
+        <p className='mb-72'>
           Outside of my studies, I have a passion for music and enjoy playing video games in my free time.
         </p>
       </div>
