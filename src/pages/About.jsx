@@ -8,7 +8,7 @@ const About = () => {
         <h1 className={`sm:text-5xl text-3xl ${styles.textGradient} font-bold sm:mt-[25%] mt-[35%] mb-10`}>About me</h1>
         <p className='mb-6'>
           I am currently a student at the 
-          <a href="https://www.ust.edu.ph/the-university/" target='_blank' className='font-semibold'> University of Santo Tomas</a>
+          <a href="https://www.ust.edu.ph/the-university/" target='_blank' className='font-semibold text-blue-600 hover:text-blue-400'> University of Santo Tomas</a>
           , pursuing a Bachelor of Science in Information and Technology. 
         </p>
         <p className='mb-6'>

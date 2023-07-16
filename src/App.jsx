@@ -1,4 +1,5 @@
 import styles from './style' 
+import 'bootstrap/dist/css/bootstrap.css';
 import { Routes, Route } from 'react-router-dom'
 import { Navbar, Footer } from './components'
 import { Home, Projects, About } from './pages'
