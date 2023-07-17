@@ -10,12 +10,12 @@ const App = () => (
     <div className={`${styles.paddingX} ${styles.flexCenter} grow`}>
       <div className={`${styles.boxWidth} text-neutral-600`}>
         <Navbar/>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/projects' element={<Projects/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/contact' element={<Contacts/>}/>
-        </Routes>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/projects' element={<Projects/>}/>
+            <Route path='/about' element={<About/>}/>
+            <Route path='/contact' element={<Contacts/>}/>
+          </Routes>
       </div>
     </div>
     <Footer className="shrink-0"></Footer>
