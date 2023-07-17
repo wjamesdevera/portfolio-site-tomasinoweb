@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Routes, Route } from 'react-router-dom'
 import { Navbar, Footer } from './components'
 import { Home, Projects, About } from './pages'
+import Contacts from './pages/Contacts';
 
 const App = () => (
   <div className="bg-primary_tw w-full overflow-hidden min-h-[100vh] flex flex-col">
@@ -13,6 +14,7 @@ const App = () => (
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/about' element={<About/>}/>
+          <Route path='/contact' element={<Contacts/>}/>
         </Routes>
       </div>
     </div>
